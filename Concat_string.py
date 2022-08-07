@@ -1,4 +1,7 @@
-s1 = str(input("Enter a string"))
-s2 = str(input("Enter another string"))
-s_main = s1+s2
-print(s_main)
+def concat(str1,str2):
+  s_final = str1+str2 
+  return s_final
+a = str(input("Enter first string"))
+b = str(input("Enter second string"))
+concat(a,b)
+      
