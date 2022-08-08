@@ -12,3 +12,7 @@ num1 = 54
 num2 = 24
 
 print("The H.C.F. is", compute_hcf(num1, num2))
+
+
+#code from:
+# https://www.programiz.com/python-programming/examples/hcf
