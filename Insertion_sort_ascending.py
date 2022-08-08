@@ -1,5 +1,5 @@
 L= eval(input("enter a list"))
-print("unsorted lsi is",L)
+print("The unsorted list is",L)
 l=len(L)
 for i in range(1,l):
     key=L[i]
