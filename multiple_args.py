@@ -13,7 +13,7 @@ mult(a,b,c,d)
 mult(1,2,3,4,5,2,244,34,5,6)
 
 
-
+# we can provide multiple parameters using *
 
 
 
