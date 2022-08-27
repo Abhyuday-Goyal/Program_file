@@ -10,7 +10,7 @@ def binary():
   import pickle 
   f = open("ab.dat", "wb")
   d = { "name" : Arun, "roll no." : 1, "marks": 95}
-  picle.dump(d,f)
+  pickle.dump(d,f)
   f.close()
 binary()
 
