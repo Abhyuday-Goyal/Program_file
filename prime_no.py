@@ -1,4 +1,4 @@
-n=int(input(“enter a number “))
+n=int(input(' enter a number '))
 f= False
 if n>1:
     for i in range (2, n):
@@ -6,6 +6,6 @@ if n>1:
             f = True
             break
 if f :
-    print(n," is not a prime number ")
+    print(n,"is not a prime number ")
 else:
-    print(n,"is a prime number”)
+    print(n,'is a prime number')

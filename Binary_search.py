@@ -1,6 +1,6 @@
 #to apply binary search, the list must be sorted. 
 #binary search cannot be done on a tuple 
-L= input("Enter a list in")
+L= input("Enter a list of integers ")
 l=len(L)
 begin = 0
 end=l-1

@@ -1,6 +1,6 @@
 def position_arg(a,b,c,d):
   sum = a+b+c+d
-  return sum 
+  print( sum )
 w = int(input("enter the first number"))
 x = int(input("enter the second number"))
 y = int(input("enter the third number"))

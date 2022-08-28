@@ -1,5 +1,5 @@
 def default( place = "india"):
-  return place 
+  print(place)
 default()
-default( France)
+default( 'France')
 # default values do not require us to give arguements to the function as they refer to the default value 
