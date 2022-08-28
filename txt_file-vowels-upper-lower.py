@@ -14,9 +14,9 @@ for char in file_contents:
     lower += 1
   if char.isupper():
     upper+= 1 
-print(vowels)
-print(upper)
-print(lower)
-print(consonants)
+print('the number of vowels are:',vowels)
+print('the number of upper case characters are ',upper)
+print('the number of lower case characters are',lower)
+print('the number of consonants are',consonants)
   
   

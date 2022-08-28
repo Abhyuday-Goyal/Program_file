@@ -16,4 +16,5 @@ flight_count = 0
 for flight in flight_list:
     if flight['destination'] == 'dubai':
         flight_count += 1
+print("the counts for dubai are ")
 print(flight_count)

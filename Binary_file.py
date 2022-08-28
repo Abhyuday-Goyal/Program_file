@@ -1,18 +1,12 @@
 import pickle
-
-
 def append(file_name, record):
     f = open(file_name, "ab")
     pickle.dump(record, f)
     f.close()
-
-
 record1 = {"name": 'Arun', "roll no.": 1, "marks": 95}
 record2 = {"name": 'Dhruv', "roll no.": 2, "marks": 99}
 append("ab.dat", record1)
 append("ab.dat", record2)
-
-
 def read(file_name):
     f = open(file_name, 'rb')
     while True:
@@ -21,12 +15,8 @@ def read(file_name):
             print(contents)
         except EOFError:
             break
-
-
 read('ab.dat')
 print("-----")
-
-
 def search(file_name, roll_no_record):
     f = open(file_name, 'rb')
     index = 0
@@ -42,13 +32,9 @@ def search(file_name, roll_no_record):
         index += 1
     f.close()
     return -1
-
-
 search_record_rollno = 1
 search('ab.dat', search_record_rollno)
 print("===")
-
-
 def update(file_name, roll_no_record, new_marks):
     f = open(file_name, 'rb')
     record_list = []

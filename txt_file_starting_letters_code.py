@@ -12,6 +12,7 @@ a.close()
 c = open('new.txt', 'r')
 d = c.readlines()
 c.close()
+print('the line removed is')
 print(d)
 
         

@@ -7,7 +7,9 @@ def sentence(x):
       str1 = str1+x[i]
     elif x[i].lower == False:
       str2 = str2+x[i]
-  return str1,str2
+  print(str1)
+  print(str2)
+      
   
 a = str(input("enter a string "))
 sentence(a)

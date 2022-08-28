@@ -1,9 +1,9 @@
 def mult(*n):
   t = 0 
   for x in n:
-    t = t+i
-  print("the sum = ")
-  return t 
+    t = t+x
+  print("the sum = ", t)
+  
 a = int(input("enter a value"))
 b= int(input("enter a value"))
 c = int(input("enter a value"))
