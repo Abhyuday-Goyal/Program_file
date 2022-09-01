@@ -3,5 +3,9 @@
 def showEmployee(name, salary = 3000):
   print('name of employee:', name)
   print('salary of employee;', salary)
-  
+a = str(input("enter name of employee"))
+b = int(input("enter salary amount"))
+showEmployee(a,b)
+showEmployee('abhyuday')
+
 
